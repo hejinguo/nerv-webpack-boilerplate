@@ -33,6 +33,6 @@ A simple Webpack boilerplate with Nervjs.
     `npm run deploy`
 
 当CSS不起作用时候:
-<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+'<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">'
 改为
-<link href="<%= htmlWebpackPlugin.files.css[css].path %>" rel="stylesheet">
+'<link href="<%= htmlWebpackPlugin.files.css[css].path %>" rel="stylesheet">'
