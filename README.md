@@ -33,7 +33,8 @@ A simple Webpack boilerplate with Nervjs.
     `npm run deploy`
 
 ---
-需要在index.html 修改引入css的代码：
+
+* 需要在index.html 修改引入css的代码：
 `<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">`
 为
 `<link href="<%= htmlWebpackPlugin.files.css[css].path %>" rel="stylesheet">`
