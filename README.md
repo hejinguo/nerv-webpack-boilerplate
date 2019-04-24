@@ -36,3 +36,6 @@ A simple Webpack boilerplate with Nervjs.
 `<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">`
 为
 `<link href="<%= htmlWebpackPlugin.files.css[css].path %>" rel="stylesheet">`
+
+* React Router:
+   `npm install -S react-router@2.3.0`
